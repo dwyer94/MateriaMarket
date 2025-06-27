@@ -5,7 +5,7 @@ This project is a fullstack web app for viewing Final Fantasy XIV Materia market
 
 ## 🧱 Tech Stack
 
-- **Frontend:** React + TypeScript + Material UI
+- **Frontend:** React + TypeScript + Lucide-React
 - **Backend:** FastAPI (Python)
 - **Data Sources:**
   - [XIVAPI](https://xivapi.com/) for Materia stats
