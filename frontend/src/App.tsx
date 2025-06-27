@@ -143,8 +143,11 @@ const App: React.FC = () => {
                 <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                   Scrip Cost
                 </th>
-                <th className="px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
-                  Cheapest
+                <th 
+                  onClick={() => handleSort('cheapest_listings')} 
+                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                  >
+                  Cheapest {getSortIcon('cheapest_listings')}
                 </th>
                 <th 
                   onClick={() => handleSort('total_quantity')} 
